@@ -1,0 +1,33 @@
+{
+
+"projects":[
+    {
+        "name" : "frontend" , 
+        "root" : "frontend/", 
+        "buildCommand" :"npm run build", 
+        "outputDirectory" : "dist"
+    } , 
+    {
+
+"name" :"backend" , 
+"root" : "backend/", 
+"framework" :null 
+
+    }
+]
+, 
+"routes" :[
+    {
+
+        "src" : "/api/(.*)", 
+        "dest" :"/backend/index.ts"
+    }, 
+    {
+        "src" :"/(.*)" , 
+        "dest":"/frontend/$1"
+    }
+]
+
+
+
+}
