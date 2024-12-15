@@ -15,7 +15,7 @@ Cette application backend fournit des APIs pour analyser les ventes et obtenir d
 
 1. **Cloner le dépôt :**
    ```bash
-   git clone <URL_DU_DEPOT>
+  
    cd backend
    ```
 
@@ -27,8 +27,19 @@ Cette application backend fournit des APIs pour analyser les ventes et obtenir d
 3. **Configurer les variables d'environnement :**
    Créez un fichier `.env` à la racine et ajoutez les variables suivantes :
    ```
-   MONGO_URI=<votre_uri_mongodb>
+ 1ere option : DATABASE_URL=mongodb://localhost:27017/your_database_name 
    PORT=4000
+2eme option : 
+
+Créez un compte mongodb Atlas  , 
+et ensuite ajouter la connexion string . 
+C'est l'option la plus recommandée car la performance est plus elevée  aux recuperations des 
+données au niveau du backend . 
+ 
+DATABASE_URL = mongodb+srv://barryasanoussa19:<db_password>@promptshareapplication.g9b2v.mongodb.net/?retryWrites=true&w=majority&appName=PromptShareApplication
+  
+
+
    ```
 
 4. **Compiler les fichiers TypeScript :**
@@ -39,7 +50,7 @@ Cette application backend fournit des APIs pour analyser les ventes et obtenir d
    ```bash
       tsc --build  
   ```
-  
+
 5. **Démarrer l'application :**
    - En mode production :
      ```bash

@@ -23,7 +23,7 @@ npm -v
 Clonez le projet et installez les dépendances :
 
 ```bash
-git clone <URL_DU_DEPOT>
+
 cd frontend
 npm install
 ```
