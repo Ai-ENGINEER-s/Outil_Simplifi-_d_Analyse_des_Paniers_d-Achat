@@ -37,7 +37,7 @@ Chaque partie du projet contient un fichier `README.md` spécifique avec des ins
 1. Clonez ce dépôt :
 
    ```bash
-   git clone <lien-du-dépôt>
+   git clone [<lien-du-dépôt>](https://github.com/Ai-ENGINEER-s/Outil_Simplifi-_d_Analyse_des_Paniers_d-Achat.git)
    cd <nom-du-dossier>
    ```
 
@@ -47,19 +47,18 @@ Chaque partie du projet contient un fichier `README.md` spécifique avec des ins
 
 ```bash
 cd frontend
-npm install
-npm start
+
+suivez les instructions du fichier readme du frontend 
 ```
 
 #### Backend
 
 ```bash
 cd backend
-pip install -r requirements.txt
-python main.py
+
+suivez les instructions dans le fichier readme de backend 
 ```
 
-> **Note :** Adaptez les commandes ci-dessus à votre projet si nécessaire.
 
 ---
 
@@ -73,7 +72,8 @@ Les contributions sont les bienvenues !
 4. Soumettez une Pull Request.
 
 ---
+## Auteur
+Nom : **Barry Sanoussa**
 
-## Licence
+Email : **barrysanoussa19@gmail.com**
 
-Ce projet est sous licence [nom de la licence]. Veuillez consulter le fichier LICENSE pour plus de détails.

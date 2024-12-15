@@ -186,8 +186,3 @@ Email : **barrysanoussa19@gmail.com**
 
 ---
 
-
-
-DATABASE_URL=mongodb+srv://barryasanoussa19:b0fg5hqdarGeJ9xy@promptshareapplication.g9b2v.mongodb.net/?retryWrites=true&w=majority&appName=PromptShareApplication
-
-DATABASE_URL=mongodb://localhost:27017/s14
