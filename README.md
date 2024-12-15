@@ -2,8 +2,8 @@
 
 Bienvenue dans le projet **Frontend et Backend**. Ce dépôt contient les deux principales parties de l'application :
 
-- **Frontend** : L'interface utilisateur développée avec [votre framework frontend].
-- **Backend** : L'API et la logique métier développées avec [votre framework backend].
+- **Frontend** : L'interface utilisateur développée avec Vue3   js   .
+- **Backend** : L'API et la logique métier développées avec nodejs + express.
 
 ---
 
@@ -38,7 +38,7 @@ Chaque partie du projet contient un fichier `README.md` spécifique avec des ins
 
    ```bash
    git clone [<lien-du-dépôt>](https://github.com/Ai-ENGINEER-s/Outil_Simplifi-_d_Analyse_des_Paniers_d-Achat.git)
-   cd <nom-du-dossier>
+   cd <nom-du-dossier->
    ```
 
 2. Installez et démarrez chaque partie :
