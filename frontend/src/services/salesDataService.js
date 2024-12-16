@@ -41,6 +41,7 @@ export const calculateDates = (selectedPeriod) => {
   };
 };
 
+// les api de l'application
 export const fetchData = async (startDate, endDate) => {
   try {
     const [totalSalesRes, trendingProductsRes, categorySalesRes, productsRes] =
@@ -56,6 +57,8 @@ export const fetchData = async (startDate, endDate) => {
         ),
         fetch("http://localhost:4000/products-with-sales"),
       ]);
+
+    // implementation du calcul des statistiques
 
     totalSales.value = (await totalSalesRes.json()).totalSales;
     trendingProducts.value = await trendingProductsRes.json();

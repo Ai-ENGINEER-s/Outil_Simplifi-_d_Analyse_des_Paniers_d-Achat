@@ -27,10 +27,10 @@
       </div>
     </div>
 
-    <!-- Affichage de la période sélectionnée -->
+    <!-- Affichage de la période sélectionnée  : l'utilisateur peut selectionner la periode de son choix -->
    
 
-    <!-- Statistiques principales -->
+    <!-- Statistiques principales de l'application -->
     <div class="stats">
       <h2>Statistiques Principales</h2>
       <div v-if="isLoading" class="loading-icon"></div>
@@ -50,7 +50,7 @@
       <canvas v-else id="product-sales-chart" width="400" height="300"></canvas>
     </div>
 
-    <!-- Top 5 des Produits -->
+    <!-- Top 5 des Produits  les plus vendus pour la periode selectionnée par l'utilisateur -->
     <h2 class="top-products-title">Top 5 des Produits les Plus Vendus</h2>
     <div v-if="isLoading" class="loading-icon"></div>
     <table v-else class="top-products-table">
@@ -97,6 +97,8 @@
 </template>
 
 <script>
+
+// import des fichiers necessaires 
 import { ref, onMounted } from 'vue';
 import Chart from 'chart.js/auto';
 

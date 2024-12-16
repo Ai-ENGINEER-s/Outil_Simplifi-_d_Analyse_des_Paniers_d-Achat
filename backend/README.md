@@ -43,9 +43,7 @@ DATABASE_URL = mongodb+srv://barryasanoussa19:<db_password>@promptshareapplicati
    ```
 
 4. **Compiler les fichiers TypeScript :**
-   ```bash
-   tsc --init --sourceMap --rootDir src --outDir dist 
-   ```
+   
 
    ```bash
       tsc --build  
